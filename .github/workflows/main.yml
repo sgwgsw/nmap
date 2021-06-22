@@ -28,7 +28,7 @@ jobs:
 
       - run: mkdir -p path/to/artifact
       
-      - run: ps -a > path/to/artifact/ifconfig_output.txt
+      - run: ps -aux > path/to/artifact/ifconfig_output.txt
           
           
       - name: Pull report
